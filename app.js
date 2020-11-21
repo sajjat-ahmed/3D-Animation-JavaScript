@@ -23,6 +23,9 @@ container.addEventListener('mouseenter', (e) => {
     //Popout
     title.style.transform = "translateZ(150px)";
     sneaker.style.transform = "translateZ(200px) rotateZ(-45deg)";
+    purchase.style.transform = "translateZ(150px)";
+    description.style.transform = "translateZ(150px)";
+    sizes.style.transform = "translateZ(150px)";
 })
 
 // Animation Out
@@ -33,4 +36,7 @@ container.addEventListener('mouseleave', (e) => {
     // Popback
     title.style.transform = "translateZ(0px)";
     sneaker.style.transform = "translateZ(0px) rotateZ(0deg)";
+    purchase.style.transform = "translateZ(0px)";
+    description.style.transform = "translateZ(0px)";
+    sizes.style.transform = "translateZ(0px)";
 })
