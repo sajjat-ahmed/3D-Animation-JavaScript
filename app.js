@@ -40,3 +40,9 @@ container.addEventListener('mouseleave', (e) => {
     description.style.transform = "translateZ(0px)";
     sizes.style.transform = "translateZ(0px)";
 })
+
+
+
+
+
+
